@@ -19,5 +19,4 @@ UW.Disqus_Terms = function(args){
   this.template = '<p id="disqus-terms">' + uw.disqus_tos_text + '</p>';
   this.$disqus_div = $(args.el);
   $(this.template).insertBefore(this.$disqus_div);
-  //this.$disqus_div.prepend(this.template);
 }
